@@ -19,12 +19,12 @@ public class WebSiteInfoController {
 	 */
 	@ModelAttribute("WEBSITE")
 	public WebSiteInfoDTO showInfo(Model model) {
-		System.out.println("******+++++++++++++++++++++*****");
+		System.out.println("***********************");
 		System.out.println("inside WebsiteInfoDTO");
 		WebSiteInfoDTO dto = new WebSiteInfoDTO();
 		dto.setWebSiteName("SeleniumExpress");
 		dto.setWebDomain("Education");
-		System.out.println("*******+++++++++++++++++++*******");
+		System.out.println("***********************");
 		return dto;
 
 	}
