@@ -16,7 +16,7 @@ public class WebSiteInfoConfig {
 		InternalResourceViewResolver ViewResolver = new InternalResourceViewResolver();
 		ViewResolver.setPrefix("/WEB-INF/view/");
 		ViewResolver.setSuffix(".jsp");
-
+System.out.println();
 		return ViewResolver;
 	}
 
