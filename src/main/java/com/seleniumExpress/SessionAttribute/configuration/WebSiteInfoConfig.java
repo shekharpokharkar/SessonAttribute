@@ -13,10 +13,11 @@ public class WebSiteInfoConfig {
 
 	@Bean
 	public InternalResourceViewResolver ViewResolver() {
+		System.out.println("---------------------");
 		InternalResourceViewResolver ViewResolver = new InternalResourceViewResolver();
 		ViewResolver.setPrefix("/WEB-INF/view/");
 		ViewResolver.setSuffix(".jsp");
-System.out.println();
+		System.out.println("---------------------");
 		return ViewResolver;
 	}
 
